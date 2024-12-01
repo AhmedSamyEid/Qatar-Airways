@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="Container">
+      <header>
+        <div class=""></div>
+        <div class="Front-facade">
+          <div class="Front">
+            <img src="./photo/hn-destination-americas.jpg" />
+          </div>
+          <div class="log">
+            <img src="./photo/6666dfa7-aae5-434c-809f-53019306d0c4.svg" />
+          </div>
+          <div class="log2">
+            <img src="./photo/663867fd-816d-4666-90a1-9d0e9be4f4f8.svg" />
+          </div>
+          <div class="Help">
+            <img src="./photo/affe4283-df0c-4bb4-9a51-eeae78945238.svg" />
+          </div>
+          <div class="AR">
+            <img src="./photo/qa.png" />
+          </div>
+          <div class="usr">
+            <img src="./photo/9eb7c33f-fc14-4ea8-b7e6-101c201090d6.svg" />
+          </div>
+
+          <div class="navbar">
+            <a href="#">اكتشف</a>
+            <a href="#">احجز</a>
+            <a href="#">الرحلات</a>
+            <a href="#">نادي الامتياز</a>
+          </div>
+
+          <div class="navbar2">
+            <a href="#">تسجيل الدخول انشاء حساب</a>
+            <a href="#">AR</a>
+            <a href="#">المساعده</a>
+          </div>
+          <div class="Ready-for-a-trip">
+            <h1>مستعدّ لرحلة مذهلة إلى الأمريكتين؟</h1>
+          </div>
+          <div class="butt">
+            <button class="bu">اكتشف هذا العرض</button>
+          </div>
+          <div class="bntnt">
+            <button class="Livre" onclick="loadPage('booking')">احجز</button>
+            <button class="Voyages" onclick="loadPage('schedule')">
+              جدول الرحلات
+            </button>
+            <button class="Le voyage" onclick="loadPage('flight-status')">
+              حالة الرحلة
+            </button>
+            <button class="revoir" onclick="loadPage('review-booking')">
+              استعراض الحجز
+            </button>
+            <button class="voyage" onclick="loadPage('travel-procedures')">
+              إجراءات السفر
+            </button>
+          </div>
+
+          <!-- هذا الجزء الذي سيتم تغييره بناءً على الزر الذي يتم الضغط عليه -->
+          <div id="page-content" class="page-content">
+            <h2>مرحبًا بك!</h2>
+            <p>يرجى اختيار صفحة من الأزرار أعلاه لاستعراض المحتوى.</p>
+          </div>
+        </div>
+
+        <div class="Plan-your-next-trip">
+          <h1>خطط لرحلتك القادمة</h1>
+          <!-- <p>
+            هل ترغب بالسفر إلى مكان ما قريباً؟ إليك بعض الخيارات لمساعدتك على
+            التخطيط لرحلة مثالية.
+          </p> -->
+        </div>
+        <div class="For-your-next-trip">
+          <div class="Tourist-destinations">
+            <img src="./photo/h3-destination-promo-collage.jpg" />
+            <h2>ابراز الواجهات السياحيه في سبتبر</h2>
+            <h3>اكتشف هذا العرض</h3>
+          </div>
+          <div class="Featured-booking">
+            <img src="./photo/h3-mobile-check-in.jpg" />
+            <h2>تطبيقات للجول</h2>
+            <h3>اكتشف هذا العرض</h3>
+          </div>
+          <div class="Mobile-App">
+            <img src="./photo/h3-mobile-app-homepage.jpg" />
+            <h2>ما هي مميزات الحجز عبر الانترنت</h2>
+            <h3>اكتشف هذا العرض</h3>
+          </div>
+          <div class="Travel-experience">
+            <img src="./photo/h3-excess-baggage-family.jpg" />
+            <h2>عزز من تجريبة سفرك</h2>
+            <h3>اكتشف هذا العرض</h3>
+          </div>
+        </div>
+        <div class="Offers">
+          <h2>أحدث العروض على تذاكر رحلات الطيران</h2>
+        </div>
+        <div class="Latest-offers-on-flight-tickets">
+          <img src="./photo/rendition.733.425 (1).jpg" alt="العرض الأخير" />
+          <div class="offer-info">
+            <h3>بيروت</h3>
+            <p>التاريخ: 20 سبتمبر 2024</p>
+            <button class="book-now">احجز الآن</button>
+          </div>
+        </div>
+        <div class="Latest-offers-on-flight">
+          <img src="./photo/rendition.360.360 (2).jpg" alt="العرض الأخير" />
+          <div class="offer-info2">
+            <h3>عمان</h3>
+            <p>التاريخ: 20 سبتمبر 2024</p>
+            <button class="book-now2">احجز الآن</button>
+          </div>
+        </div>
+        <div class="Latest-offers-on">
+          <img src="./photo/rendition.360.360 (5).jpg" alt="العرض الأخير" />
+          <div class="offer-info">
+            <h3>اثينا</h3>
+            <p>التاريخ: 20 سبتمبر 2024</p>
+            <button class="book-now">احجز الآن</button>
+          </div>
+        </div>
+        <div class="gallery">
+          <div class="Latest-offers">
+            <img src="./photo/rendition.360.360 (1).jpg" alt="العرض الأخير" />
+            <div class="offer-info">
+              <h3>تيبليسي</h3>
+              <p>التاريخ: 20 سبتمبر 2024</p>
+              <button class="book-now">احجز الآن</button>
+            </div>
+          </div>
+
+          <div class="Latest">
+            <img src="./photo/rendition.360.360 (3).jpg" alt="العرض الأخير" />
+            <div class="offer-info">
+              <h3>مانيلا</h3>
+              <p>التاريخ: 20 سبتمبر 2024</p>
+              <button class="book-now">احجز الآن</button>
+            </div>
+          </div>
+
+          <div class="Latest-offers-on-flight-ticketsss">
+            <img src="./photo/rendition.733.425.jpg" alt="العرض الأخير" />
+            <div class="offer-info">
+              <h3>اسطنبول</h3>
+              <p>التاريخ: 20 سبتمبر 2024</p>
+              <button class="book-now">احجز الآن</button>
+            </div>
+          </div>
+        </div>
+        <button class="btt">عرض المزيد</button>
+        <div class="Privilege-Club">
+          <a href="#" class="show-content" data-content="club">نادي الامتياز</a>
+          <a href="#" class="show-content" data-content="adventure"
+            >مغامرتك الخاصة</a
+          >
+          <a href="#" class="show-content" data-content="partners"
+            >اكتشف شركائنا</a
+          >
+          <a href="#" class="show-content" data-content="duty-free"
+            >السوق الحرة القطرية</a
+          >
+        </div>
+
+        <div id="content-container">
+          <div id="club" class="content active">
+            <img
+              src="./photo/h1-ffp-cards-qsuite-crew-nocards-ar.jpg"
+              alt="نادي الامتياز"
+            />
+            <div class="leyr">
+              <h1>انضم الي نادي الامتياز</h1>
+              <h2>
+                اجمع نقاط أفيوس وأنفقها عند التسوق في السوق الحرة القطرية، وحجز
+                رحلات الطيران، وترقية درجة السفر، وشراء وزن إضافي للأمتعة، وغير
+                ذلك الكثير من المزايا الحصريّة.
+              </h2>
+              <a href="#" class="btn">انضم الان</a>
+            </div>
+          </div>
+
+          <div id="adventure" class="content" style="display: none">
+            <img
+              src="./photo/hn-adventure-couple-ar.jpg"
+              alt="مغامرتك الخاصة"
+            />
+            <div class="leyr">
+              <h1>تالق في مغامراتك الخاصه</h1>
+              <h2>تتسع حددالحلم لتعانق الافاق.تالق الان تحت الاضواء</h2>
+              <a href="#" class="btn">انضم الان</a>
+            </div>
+          </div>
+
+          <div id="partners" class="content" style="display: none">
+            <img src="./photo/friends-shopping-ar.jpg" alt="اكتشف شركائنا" />
+            <div class="leyr">
+              <h1>احصل علي نقاط افيوس مع شركائنا</h1>
+              <h2>
+                اجمع نقاط أفيوس عن إقاماتك الفندقية، واستئجار السيارات، والتسوّق
+                لدى شركائنا المميزين من حول العالم.
+              </h2>
+              <a href="#" class="btn">انضم الان</a>
+            </div>
+          </div>
+
+          <div id="duty-free" class="content" style="display: none">
+            <img
+              src="./photo/h1-faminly-in-hia-qdf-bags-hn-ar.jpg"
+              alt="السوق الحرة القطرية"
+            />
+            <div class="leyr">
+              <h1>اجمع وأنفق نقاط أفيوس</h1>
+              <h2>
+                استمتع بمكافآت حصرية عند التسوّق والاستمتاع بتجارب مميزة في
+                المطاعم والمقاهي المتعددة في السوق الحرة القطرية.
+              </h2>
+              <a href="#" class="btn">انضم الان</a>
+            </div>
+          </div>
+        </div>
+        <div class="Are-you-looking-for-a-special-travel-package">
+          <h2>هل تبحث عن باقة سفر مميزة؟</h2>
+          <p>
+            وفّر واحصل على مكافآت مذهلة عند حجز باقة رحلة طيران وإقامة فندقية مع
+            القطرية للعطلات.
+          </p>
+        </div>
+        <div class="Live-the-moment-of-excitement">
+          <div class="image-container">
+            <img src="./photo/s-phuket.jpg" alt="صورة" />
+            <h4>وفّر في رحلتك القادمة إلى إحدى وجهاتنا الساحرة</h4>
+            <button>اكتشف الباقات</button>
+          </div>
+
+          <div class="image-container">
+            <img src="./photo/s-f1-v2.jpg" alt="صورة" />
+            <h4>عيشوا لحظات الإثارة مع ®F1، خصومات حتى 12%</h4>
+            <button>احجز</button>
+          </div>
+        </div>
+        <div class="Subscribe-to-our-newsletter">
+          <img
+            src="./photo/NL_Background_Desktop.png"
+            alt="Newsletter Background"
+          />
+          <h3>اشترك في نشرتنا الإلكترونية</h3>
+          <h4>كن أول من يستقبل عروضنا الحصرية وآخر الأخبار عن خدماتنا.</h4>
+          <form class="subscribe-form">
+            <input type="email" placeholder="أدخل بريدك الإلكتروني" required />
+            <select required>
+              <option value="" disabled selected>
+                اختر مدينة المغادرة المفضلة
+              </option>
+              <option value="cairo">القاهرة</option>
+              <option value="alexandria">الإسكندرية</option>
+              <option value="dubai">دبي</option>
+              <option value="doha">الدوحة</option>
+              <option value="riyadh">الرياض</option>
+              <option value="jeddah">جدة</option>
+            </select>
+            <button type="submit">اشترك الآن</button>
+          </form>
+        </div>
+        <footer class="qatar-airways-footer">
+          <div class="footer-top">
+            <div class="footer-section">
+              <h4>خدمات العملاء</h4>
+              <ul>
+                <li><a href="#">اتصل بنا</a></li>
+                <li><a href="#">المساعدة والدعم</a></li>
+                <li><a href="#">معلومات الحجز</a></li>
+                <li><a href="#">التأشيرات وجوازات السفر</a></li>
+              </ul>
+            </div>
+            <div class="footer-section">
+              <h4>اكتشف المزيد</h4>
+              <ul>
+                <li><a href="#">وجهاتنا</a></li>
+                <li><a href="#">الطيران مع قطر</a></li>
+                <li><a href="#">نادي الامتياز</a></li>
+                <li><a href="#">المسؤولية الاجتماعية</a></li>
+              </ul>
+            </div>
+            <div class="footer-section">
+              <h4>تابعنا</h4>
+              <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              </div>
+            </div>
+            <div class="footer-section">
+              <h4>معلومات الاتصال</h4>
+              <p>الهاتف: +974 4444 4444</p>
+              <p>البريد الإلكتروني: info@qatarairways.com</p>
+              <p>الموقع: الدوحة، قطر</p>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p>&copy; 2024 طيران قطر. جميع الحقوق محفوظة.</p>
+          </div>
+        </footer>
+
+        <!-- <video class="fullscreen-video" autoplay muted loop>
+        <source src="./viode/Snaptik.app_7411202339002010896.mp4" type="video/mp4">
+        متصفحك لا يدعم تشغيل الفيديو.
+    </video> -->
+      </header>
+    </div>
+    <script src="./script/main.js"></script>
+  </body>
+</html>

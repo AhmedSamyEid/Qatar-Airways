@@ -1,0 +1,1183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Container {
+  overflow: hidden;
+  height: 4700px;
+  color: #fff3f3a2;
+}
+.Front::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 74%;
+  background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0), rgba(7, 7, 7, 0.5));
+  
+}
+.log {
+  
+  position: relative;
+  left: 85%;
+  bottom: 450px;
+}
+.log2 {
+  
+  position: relative;
+  left: 80%;
+  bottom: 490px;
+}
+.navbar {
+  position: relative;
+  left: 45%;
+  bottom: 610px;
+  
+}
+.navbar a {
+  text-decoration: none;
+  color: aliceblue;
+  margin: 20px;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar2 {
+  position: relative;
+  left: 5%;
+  bottom: 640px;
+}
+.navbar2 a {
+  text-decoration: none;
+  color: aliceblue;
+  margin: 30px;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Help {
+  position: relative;
+  left: 33%;
+  bottom: 520px;
+}
+.AR {
+  position: relative;
+  left: 25%;
+  bottom: 550px;
+}
+.usr {
+  position: relative;
+  left: 4%;
+  bottom: 580px;
+}
+.Ready-for-a-trip {
+  position: relative;
+  left: 80%;
+  bottom: 500px;
+  width: 20%;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+.butt {
+  position: relative;
+  left: 80%;
+  bottom: 400px;
+  
+}
+.bu {
+  padding: 15px;
+  width: 15%;
+  border-radius: 20px;
+  background-color: #ffffff00;
+  border: solid 2px #ffffff;
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.bu:hover {
+  background-color: #ffffff;
+  color: #000;
+}
+
+.but {
+  text-align: center;
+  position: relative;
+  bottom: 150px;
+}
+
+/* تصميم الزر */
+.but button {
+  background: linear-gradient(to left, #007BFF, #0056b3);
+  background-size: 200% 100%; 
+  background-position: right bottom;
+  color: white;
+  padding: 15px 70px;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-position 0.4s ease, transform 0.3s ease;
+}
+
+
+.but button:hover {
+  background-position: left bottom;
+  transform: scale(1.05); 
+}
+
+.but button:active {
+  background-position: left bottom;
+  transform: scale(0.98);
+}
+.bntnt {
+  margin-bottom: 20px;
+  position: relative;
+  bottom: 500px;
+  left: 20%;
+
+}
+
+.bntnt button {
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #61267c;
+  border-radius: 5px;
+  border: solid 1px #61267c;
+  font-size: 20px;
+  color: #ffffff;
+  font-family: 'Times New Roman', Times, serif;
+  transition: all 0.5s;
+}
+.bntnt button:hover {
+  background-color: #ae00ff;
+  color: #ffffff;
+}
+
+.page-content {
+  border: 4px solid #61267c;
+  padding: 20px;
+  min-height: 200px;
+  position: absolute;
+  background-color: #61267c;
+  width: 70%;
+  top: 450px;
+  left: 10%;
+  border-radius: 5px;
+}
+
+.page-content h2 {
+  margin-bottom: 20px; 
+}
+
+.page-content h3 {
+  margin-bottom: 15px; 
+  position: relative;
+  bottom: 45px;
+  left: 20%;
+  font-size: 20px;
+}
+.page-content ul li {
+  font-size: 20px;
+}
+
+
+.radio-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  bottom: 200px;flex-direction: row;
+  left: 100px;
+  
+}
+
+
+input[type="radio"] {
+  position: relative;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #61267c;
+  background-color: #61267c;
+  cursor: pointer;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+  
+}
+
+
+input[type="radio"]:checked {
+  border-color: #28a745;
+}
+
+
+input[type="radio"]:checked {
+  transform: scale(1.3); 
+}
+
+
+label {
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+}
+
+.page-content p {
+  margin-bottom: 20px;
+}
+
+.page-content ul {
+  margin-bottom: 20px; 
+  padding-left: 20px; 
+}
+
+.page-content ul li {
+  margin-bottom: 10px; 
+}
+
+.page-content {
+  border: 1px solid #ccc;
+  padding: 20px;
+  min-height: 300px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #61267c;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus {
+  border-color: #61267c;
+  outline: none;
+}
+
+
+h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.flight-status-form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 20px;
+}
+
+.flight-status-form label {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.flight-status-form input[type="text"],
+.flight-status-form input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+}
+
+.flight-status-form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #61267c;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.flight-status-form button:hover {
+  background-color: #61267c;
+}
+
+
+.status-results {
+  margin-top: 20px;
+}
+
+.status-results h3 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.status-results table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.status-results table, th, td {
+  border: 1px solid #ddd;
+}
+
+.status-results th, td {
+  padding: 12px;
+  text-align: left;
+}
+
+.status-results th {
+  background-color: #61267c;
+  color: white;
+}
+
+.status-results tr:nth-child(even) {
+  background-color: #61267c;
+}
+
+.status-results tr:hover {
+  background-color: #61267c;
+}
+
+.booking-review-form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 20px;
+}
+
+.booking-review-form label {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.booking-review-form input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+}
+
+.booking-review-form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #61267c;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.booking-review-form button:hover {
+  background-color: #61267c;
+}
+
+
+.booking-details {
+  margin-top: 20px;
+}
+
+.booking-details h3 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.booking-details table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.booking-details table, th, td {
+  border: 1px solid #ddd;
+}
+
+.booking-details th, td {
+  padding: 12px;
+  text-align: left;
+}
+
+.booking-details th {
+  background-color: #61267c;
+  color: white;
+}
+
+.booking-details tr:nth-child(even) {
+  background-color: #61267c;
+}
+
+.booking-details tr:hover {
+  background-color: #61267c;
+}
+
+.procedures-list {
+  list-style-type: decimal;
+  margin: 20px 0;
+  padding: 0;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.procedures-list li {
+  margin-bottom: 20px;
+}
+
+.procedures-list h3 {
+  color: #61267c;
+  margin-bottom: 5px;
+  position: relative;
+  left: 40%;
+}
+
+.procedures-list p {
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.default-message {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #61267c;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.default-message h2 {
+  color: #61267c;
+  margin-bottom: 15px;
+}
+
+.default-message p {
+  color: #333;
+  margin: 10px 0;
+  font-size: 16px;
+}
+.Plan-your-next-trip h1 {
+  position: relative;
+  left: 80%;
+  top: 10px;
+  font-weight: 400;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #000;
+  font-size: 30px;
+}
+.Plan-your-next-trip p {
+  position: relative;
+  left: 50%;
+  bottom: 100px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 70px;
+}
+.For-your-next-trip  {
+  display: flex;
+  position: relative;
+  left: 3%;
+  cursor: pointer;
+  bottom: 100px;
+}
+.Tourist-destinations {
+  width: 40%;
+  position: relative;
+  
+}
+
+.Tourist-destinations img {
+  width: 95%;
+  border-radius: 10px;
+  position: relative;
+  right: 3%;
+  top: 200px;
+}
+.Featured-booking img {
+  width: 70%;
+  border-radius: 10px;
+  position: relative;
+  left: 10%;
+  top: 200px;
+}
+.Mobile-App img {
+  width: 70%;
+  border-radius: 10px;
+  position: relative;
+  top: 200px;
+}
+.Travel-experience img {
+  width: 70%;
+  border-radius: 10px;
+  position: relative;
+  top: 200px;
+}
+.For-your-next-trip h2 {
+  width: 90%;
+  position: relative;
+  left: 5%;
+  bottom: 50px;
+}
+.For-your-next-trip h3 {
+  width: 90%;
+  position: relative;
+  left: 5%;
+  color: #00000094;
+  font-weight: 100;
+  display: none;
+}
+.Latest-offers-on-flight-tickets {
+  position: relative;
+  width: 650px; 
+  height: 400px;
+  overflow: hidden;
+  background-size: cover;
+  left: 50%;
+}
+
+.Latest-offers-on-flight-tickets img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 20px;
+  
+}
+.Offers {
+  position: relative;
+  left: 65%;
+  font-size: 20px;
+
+}
+.Offers h2 {
+  font-weight: 100;
+  display: none;
+} 
+
+.offer-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.5s ease, transform 0.5s ease; 
+  transform: translateY(100%); 
+  border-radius: 20px;
+}
+
+
+.Latest-offers-on-flight-tickets:hover .offer-info {
+  opacity: 1;
+  transform: translateY(0); 
+}
+
+.offer-info h3 {
+  position: relative;
+  left: 40%;
+  font-size: 30px;
+  color: #fff;
+}
+.offer-info p {
+  position: relative;
+  right: 30%;
+  font-size: 20px;
+  bottom: 40px;
+  color: #fff;
+}
+
+.book-now {
+  padding: 10px 20px;
+  background-color: #691159;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  border: solid 2px #691159;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 100px;
+  width: 70%;
+  border-radius: 20px;
+  height: 50px;
+}
+
+.book-now:hover {
+  background-color: #96147e;
+  border: solid 2px #96147e;
+}
+.Latest-offers-on-flight {
+  position: relative;
+  width: 100px; 
+  height: 360px; 
+  overflow: hidden;
+  bottom: 380px;
+  left: 20%;
+  border-radius: 20px;
+}
+
+.Latest-offers-on-flight img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+
+.offer-info2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; 
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5); 
+  opacity: 0;
+  transition: opacity 0.5s ease, transform 0.5s ease; 
+  transform: translateY(100%); 
+  
+}
+
+
+.Latest-offers-on-flight:hover .offer-info2 {
+  opacity: 1;
+  transform: translateY(0); 
+}
+
+.offer-info2 h3, .offer-info2 p {
+  margin: 5px 0;
+  color: white; 
+  position: relative;
+  bottom: 50px;
+}
+
+.book-now2 {
+  padding: 10px 20px;
+  background-color: #691159;
+  color: white;
+  border: solid 2px #691159;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 70%;
+  border-radius: 20px;
+  height: 50px;
+  position: relative;
+  bottom: 50px;
+}
+
+.book-now2:hover {
+  background-color: #96147e;
+  border: solid 2px #96147e;
+}
+
+.Latest-offers-on-flight, .Latest-offers-on {
+  position: relative;
+  width: 300px; 
+  height: 360px;
+  overflow: hidden;
+  bottom: 300px;
+}
+
+.Latest-offers-on-flight img, .Latest-offers-on img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 20px;
+}
+
+
+.offer-info2, .offer-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; 
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5); 
+  opacity: 0;
+  transition: opacity 0.5s ease, transform 0.5s ease; 
+  transform: translateY(100%);
+}
+
+
+.Latest-offers-on-flight:hover .offer-info2,
+.Latest-offers-on:hover .offer-info {
+  opacity: 1;
+  transform: translateY(0); 
+}
+
+.offer-info2 h3, .offer-info2 p, .offer-info h3, .offer-info p {
+  margin: 5px 0;
+  color: white; 
+}
+
+.book-now2, .book-now {
+  padding: 10px 20px;
+  background-color: #691159;
+  border: solid 2px #691159;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.book-now2:hover, .book-now:hover {
+  background-color: #96147e;
+  border: solid 2px #96147e;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 20px; 
+  justify-content: space-between; 
+}
+
+.Latest-offers, .Latest, .Latest-offers-on-flight-ticketsss {
+  position: relative;
+  width: 360px; 
+  height: 360px; 
+  overflow: hidden;
+  bottom: 270px;
+  border-radius: 20px;
+}
+
+.Latest-offers img, .Latest img, .Latest-offers-on-flight-ticketsss img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+
+.offer-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; 
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5); 
+  opacity: 0;
+  transition: opacity 0.5s ease, transform 0.5s ease; 
+  transform: translateY(100%); 
+}
+
+
+.Latest-offers:hover .offer-info,
+.Latest:hover .offer-info,
+.Latest-offers-on-flight-ticketsss:hover .offer-info {
+  opacity: 1;
+  transform: translateY(0); 
+}
+
+.offer-info h3, .offer-info p {
+  margin: 5px 20;
+  color: white; 
+}
+
+.book-now {
+  padding: 10px 20px;
+  background-color: #691159;
+  border: solid 2px #691159;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.book-now:hover {
+  background-color: #96147e;
+  border: solid 2px #96147e;
+}
+.btt {
+  width: 25%;
+  position: relative;
+  left: 40%;
+  bottom: 150px;
+  background-color: #fff;
+  border: solid 2px #96147e;
+  border-radius: 20px;
+  height: 50px;
+  color: #691159;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.btt:hover {
+  background-color: #691159;
+  color: #fff;
+}
+.Privilege-Club a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #96147e;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  position: relative;
+  left: 25%;
+}
+
+.Privilege-Club a:hover {
+  background-color: #f831d3;
+}
+
+.Privilege-Club a.active {
+  background-color: #28a745;
+  transform: scale(1.1);
+}
+
+.content {
+  display: none;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  text-align: center;
+  height: 400px;
+}
+
+.content.active {
+  display: block;
+}
+
+.content img {
+  height: 400px;
+  width: 110%;
+  position: relative;
+  bottom: 20px;
+  right: 3%;
+  object-fit: cover;
+}
+
+.content h2 {
+  position: relative;
+  top: 20px;
+  color: #fff;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fffcfc2a;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  position: relative;
+  top: 30px;
+  left: 30%;
+  border-radius: 15px;
+  width: 35%;
+  font-size: 25px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+.leyr {
+  width: 35%;
+  height: 250px;
+  background-color: #1e1d1da0;
+  position: relative;
+  left: 60%;
+  bottom: 350px;
+  border-radius: 15px;
+  line-height: 30px;
+}
+.leyr h1 {
+  position: relative;
+  right: 25%;
+  width: 150%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Are-you-looking-for-a-special-travel-package h2 {
+  position: relative;
+  left: 70%;
+  font-size: 30px;
+  font-weight: 500;
+  top: 60px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Are-you-looking-for-a-special-travel-package p {
+  position: relative;
+  left: 43%;
+  font-size: 20px;
+  top: 70px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Live-the-moment-of-excitement {
+  display: flex;
+  
+  gap: 10%;
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 20px;
+  top: 200px;
+
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+
+}
+
+.image-container h4,
+.image-container button {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+
+}
+
+.image-container h4 {
+  top: 250px;
+  left: 150px;
+  color: white;
+  font-size: 18px;
+}
+
+.image-container button {
+  bottom: 50px;
+  left: 70px;
+  padding: 10px 20px;
+  background-color: #96147e;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 70%;
+  font-size: 25px;
+}
+
+.image-container button:hover {
+  background-color: #932780;
+}
+
+.image-container:hover img {
+  transform: scale(1.1);
+}
+
+.image-container:hover h4,
+.image-container:hover button {
+  opacity: 1;
+}
+.Subscribe-to-our-newsletter {
+  position: relative;
+  text-align: center;
+  color: white;
+  top: 250px;
+}
+
+.Subscribe-to-our-newsletter img {
+  width: 100%;
+  height: auto;
+}
+
+.Subscribe-to-our-newsletter h3 {
+  position: absolute;
+  top: 20%;
+  left: 80%;
+  transform: translateX(-50%);
+  font-size: 32px;
+  width: 100%;
+}
+
+.Subscribe-to-our-newsletter h4 {
+  position: absolute;
+  top: 35%;
+  left: 80%;
+  transform: translateX(-50%);
+  font-size: 18px;
+  width: 100%;
+}
+
+.subscribe-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.subscribe-form input,
+.subscribe-form select {
+  padding: 10px;
+  width: 220px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  position: relative;
+  left: 60%;
+}
+
+.subscribe-form select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: white;
+  color: #333;
+  cursor: pointer;
+}
+
+.subscribe-form button {
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: rgb(33, 33, 33);
+  border: none;
+  font-size: 25px;
+  border: solid 2px #ffffff;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: relative;
+  top: 100px;
+  width: 40%;
+}
+
+.subscribe-form button:hover {
+  background-color: #604765;
+}
+.qatar-airways-footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 40px 0;
+  font-family: 'Arial', sans-serif;
+  position: relative;
+  top: 247px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #555;
+  padding-bottom: 30px;
+}
+
+.footer-section {
+  width: 20%;
+}
+
+.footer-section h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #96147e;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+  color: #96147e;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #96147e;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #111;
+  font-size: 14px;
+}
+
+
+
+
+
